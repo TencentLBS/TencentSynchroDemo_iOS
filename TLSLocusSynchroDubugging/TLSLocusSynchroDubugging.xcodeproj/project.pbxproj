@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F164930219C32AB006D145B /* RouteLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F16492F219C32AB006D145B /* RouteLocation.m */; };
+		8F1D2BB121ACD8C10020BE80 /* EntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1D2BB021ACD8C10020BE80 /* EntryViewController.m */; };
+		8F1D2BB421ACDA310020BE80 /* EntryData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1D2BB321ACDA310020BE80 /* EntryData.m */; };
+		8F1D2BB721ACDC230020BE80 /* BaseSynchroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1D2BB621ACDC230020BE80 /* BaseSynchroViewController.m */; };
+		8F1D2BBA21ACDCEB0020BE80 /* DriverSynchroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1D2BB921ACDCEB0020BE80 /* DriverSynchroViewController.m */; };
+		8F1D2BBD21ACDD060020BE80 /* PassengerSynchroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1D2BBC21ACDD060020BE80 /* PassengerSynchroViewController.m */; };
+		8F1D2BC321ACE1C60020BE80 /* TencentNavigationKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F1D2BC221ACE1C60020BE80 /* TencentNavigationKit.bundle */; };
+		8F1D2BC621ACE1FE0020BE80 /* TNKNavigationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1D2BC521ACE1FE0020BE80 /* TNKNavigationKit.framework */; };
+		8F1D2BC821ACE2710020BE80 /* QMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1D2BC721ACE2700020BE80 /* QMapKit.framework */; };
+		8F1D2BCA21ACE27E0020BE80 /* QMapKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F1D2BC921ACE27E0020BE80 /* QMapKit.bundle */; };
+		8F1D2BCC21ACE2870020BE80 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1D2BCB21ACE2870020BE80 /* WebP.framework */; };
+		8F1D2BCE21ACE2FD0020BE80 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1D2BCD21ACE2FC0020BE80 /* libc++.tbd */; };
+		8F1D2BD521AD41EE0020BE80 /* TrafficPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1D2BD421AD41ED0020BE80 /* TrafficPolyline.m */; };
+		8F1D2BD721AE7C8A0020BE80 /* marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1D2BD621AE7C8A0020BE80 /* marker@2x.png */; };
+		8F50EE2A21E75D7A00B72E6C /* QMapSDKUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F50EE2921E75D7A00B72E6C /* QMapSDKUtils.framework */; };
+		8F86A1A0222FB92D00570CBD /* TLSLocusSynchro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F86A19F222FB92D00570CBD /* TLSLocusSynchro.framework */; };
+		8F98CA9021B90A0F00A6A238 /* map_icon_driver@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F98CA8E21B90A0E00A6A238 /* map_icon_driver@2x.png */; };
+		8F98CA9121B90A0F00A6A238 /* map_icon_driver@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F98CA8F21B90A0F00A6A238 /* map_icon_driver@3x.png */; };
+		8FC93C88218C245E00678BC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC93C87218C245E00678BC1 /* AppDelegate.m */; };
+		8FC93C8E218C245E00678BC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC93C8C218C245E00678BC1 /* Main.storyboard */; };
+		8FC93C90218C246000678BC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FC93C8F218C246000678BC1 /* Assets.xcassets */; };
+		8FC93C93218C246000678BC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC93C91218C246000678BC1 /* LaunchScreen.storyboard */; };
+		8FC93C96218C246000678BC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC93C95218C246000678BC1 /* main.m */; };
+		8FC93CA0218C246000678BC1 /* TLSLocusSynchroDubuggingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC93C9F218C246000678BC1 /* TLSLocusSynchroDubuggingTests.m */; };
+		8FC93CAB218C246000678BC1 /* TLSLocusSynchroDubuggingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC93CAA218C246000678BC1 /* TLSLocusSynchroDubuggingUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FC93C9C218C246000678BC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FC93C7B218C245E00678BC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FC93C82218C245E00678BC1;
+			remoteInfo = TLSLocusSynchroDubugging;
+		};
+		8FC93CA7218C246000678BC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FC93C7B218C245E00678BC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FC93C82218C245E00678BC1;
+			remoteInfo = TLSLocusSynchroDubugging;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F16492C219C2DF4006D145B /* libTLSLocusSynchro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libTLSLocusSynchro.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F16492E219C32AB006D145B /* RouteLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouteLocation.h; sourceTree = "<group>"; };
+		8F16492F219C32AB006D145B /* RouteLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouteLocation.m; sourceTree = "<group>"; };
+		8F1D2BAF21ACD8C10020BE80 /* EntryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntryViewController.h; sourceTree = "<group>"; };
+		8F1D2BB021ACD8C10020BE80 /* EntryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntryViewController.m; sourceTree = "<group>"; };
+		8F1D2BB221ACDA310020BE80 /* EntryData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntryData.h; sourceTree = "<group>"; };
+		8F1D2BB321ACDA310020BE80 /* EntryData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntryData.m; sourceTree = "<group>"; };
+		8F1D2BB521ACDC230020BE80 /* BaseSynchroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseSynchroViewController.h; sourceTree = "<group>"; };
+		8F1D2BB621ACDC230020BE80 /* BaseSynchroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseSynchroViewController.m; sourceTree = "<group>"; };
+		8F1D2BB821ACDCEB0020BE80 /* DriverSynchroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DriverSynchroViewController.h; sourceTree = "<group>"; };
+		8F1D2BB921ACDCEB0020BE80 /* DriverSynchroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DriverSynchroViewController.m; sourceTree = "<group>"; };
+		8F1D2BBB21ACDD060020BE80 /* PassengerSynchroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PassengerSynchroViewController.h; sourceTree = "<group>"; };
+		8F1D2BBC21ACDD060020BE80 /* PassengerSynchroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassengerSynchroViewController.m; sourceTree = "<group>"; };
+		8F1D2BC221ACE1C60020BE80 /* TencentNavigationKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentNavigationKit.bundle; sourceTree = "<group>"; };
+		8F1D2BC521ACE1FE0020BE80 /* TNKNavigationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TNKNavigationKit.framework; sourceTree = "<group>"; };
+		8F1D2BC721ACE2700020BE80 /* QMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QMapKit.framework; sourceTree = "<group>"; };
+		8F1D2BC921ACE27E0020BE80 /* QMapKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = QMapKit.bundle; sourceTree = "<group>"; };
+		8F1D2BCB21ACE2870020BE80 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
+		8F1D2BCD21ACE2FC0020BE80 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		8F1D2BD321AD41ED0020BE80 /* TrafficPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrafficPolyline.h; sourceTree = "<group>"; };
+		8F1D2BD421AD41ED0020BE80 /* TrafficPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrafficPolyline.m; sourceTree = "<group>"; };
+		8F1D2BD621AE7C8A0020BE80 /* marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker@2x.png"; sourceTree = "<group>"; };
+		8F50EE2921E75D7A00B72E6C /* QMapSDKUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QMapSDKUtils.framework; sourceTree = "<group>"; };
+		8F86A19F222FB92D00570CBD /* TLSLocusSynchro.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TLSLocusSynchro.framework; sourceTree = "<group>"; };
+		8F98CA8E21B90A0E00A6A238 /* map_icon_driver@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_icon_driver@2x.png"; sourceTree = "<group>"; };
+		8F98CA8F21B90A0F00A6A238 /* map_icon_driver@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_icon_driver@3x.png"; sourceTree = "<group>"; };
+		8FC93C83218C245E00678BC1 /* TLSLocusSynchroDubugging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLSLocusSynchroDubugging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC93C86218C245E00678BC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8FC93C87218C245E00678BC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8FC93C8D218C245E00678BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FC93C8F218C246000678BC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FC93C92218C246000678BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FC93C94218C246000678BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FC93C95218C246000678BC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FC93C9B218C246000678BC1 /* TLSLocusSynchroDubuggingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLSLocusSynchroDubuggingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC93C9F218C246000678BC1 /* TLSLocusSynchroDubuggingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLSLocusSynchroDubuggingTests.m; sourceTree = "<group>"; };
+		8FC93CA1218C246000678BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FC93CA6218C246000678BC1 /* TLSLocusSynchroDubuggingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLSLocusSynchroDubuggingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC93CAA218C246000678BC1 /* TLSLocusSynchroDubuggingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLSLocusSynchroDubuggingUITests.m; sourceTree = "<group>"; };
+		8FC93CAC218C246000678BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE6463821EDC79900E38A59 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FC93C80218C245E00678BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F50EE2A21E75D7A00B72E6C /* QMapSDKUtils.framework in Frameworks */,
+				8F1D2BCE21ACE2FD0020BE80 /* libc++.tbd in Frameworks */,
+				8F86A1A0222FB92D00570CBD /* TLSLocusSynchro.framework in Frameworks */,
+				8F1D2BCC21ACE2870020BE80 /* WebP.framework in Frameworks */,
+				8F1D2BC821ACE2710020BE80 /* QMapKit.framework in Frameworks */,
+				8F1D2BC621ACE1FE0020BE80 /* TNKNavigationKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC93C98218C246000678BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC93CA3218C246000678BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F16492B219C2DF4006D145B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F1D2BCD21ACE2FC0020BE80 /* libc++.tbd */,
+				8F16492C219C2DF4006D145B /* libTLSLocusSynchro.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F1D2BBE21ACDD310020BE80 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				8FE6463821EDC79900E38A59 /* Constants.h */,
+				8F1D2BB221ACDA310020BE80 /* EntryData.h */,
+				8F1D2BB321ACDA310020BE80 /* EntryData.m */,
+				8F1D2BAF21ACD8C10020BE80 /* EntryViewController.h */,
+				8F1D2BB021ACD8C10020BE80 /* EntryViewController.m */,
+				8F1D2BBF21ACDD3E0020BE80 /* Controllers */,
+				8F1D2BCF21AD3C930020BE80 /* CommonData */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		8F1D2BBF21ACDD3E0020BE80 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8F1D2BB521ACDC230020BE80 /* BaseSynchroViewController.h */,
+				8F1D2BB621ACDC230020BE80 /* BaseSynchroViewController.m */,
+				8F1D2BC021ACDD5E0020BE80 /* Synchro */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8F1D2BC021ACDD5E0020BE80 /* Synchro */ = {
+			isa = PBXGroup;
+			children = (
+				8F1D2BB821ACDCEB0020BE80 /* DriverSynchroViewController.h */,
+				8F1D2BB921ACDCEB0020BE80 /* DriverSynchroViewController.m */,
+				8F1D2BBB21ACDD060020BE80 /* PassengerSynchroViewController.h */,
+				8F1D2BBC21ACDD060020BE80 /* PassengerSynchroViewController.m */,
+			);
+			path = Synchro;
+			sourceTree = "<group>";
+		};
+		8F1D2BC121ACE1B70020BE80 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F1D2BD621AE7C8A0020BE80 /* marker@2x.png */,
+				8F98CA8E21B90A0E00A6A238 /* map_icon_driver@2x.png */,
+				8F98CA8F21B90A0F00A6A238 /* map_icon_driver@3x.png */,
+				8F1D2BC921ACE27E0020BE80 /* QMapKit.bundle */,
+				8F1D2BC221ACE1C60020BE80 /* TencentNavigationKit.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8F1D2BC421ACE1D40020BE80 /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				8F86A19F222FB92D00570CBD /* TLSLocusSynchro.framework */,
+				8F50EE2921E75D7A00B72E6C /* QMapSDKUtils.framework */,
+				8F1D2BCB21ACE2870020BE80 /* WebP.framework */,
+				8F1D2BC721ACE2700020BE80 /* QMapKit.framework */,
+				8F1D2BC521ACE1FE0020BE80 /* TNKNavigationKit.framework */,
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
+		8F1D2BCF21AD3C930020BE80 /* CommonData */ = {
+			isa = PBXGroup;
+			children = (
+				8F16492E219C32AB006D145B /* RouteLocation.h */,
+				8F16492F219C32AB006D145B /* RouteLocation.m */,
+				8F1D2BD321AD41ED0020BE80 /* TrafficPolyline.h */,
+				8F1D2BD421AD41ED0020BE80 /* TrafficPolyline.m */,
+			);
+			path = CommonData;
+			sourceTree = "<group>";
+		};
+		8FC93C7A218C245E00678BC1 = {
+			isa = PBXGroup;
+			children = (
+				8FC93C85218C245E00678BC1 /* TLSLocusSynchroDubugging */,
+				8FC93C9E218C246000678BC1 /* TLSLocusSynchroDubuggingTests */,
+				8FC93CA9218C246000678BC1 /* TLSLocusSynchroDubuggingUITests */,
+				8FC93C84218C245E00678BC1 /* Products */,
+				8F16492B219C2DF4006D145B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8FC93C84218C245E00678BC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FC93C83218C245E00678BC1 /* TLSLocusSynchroDubugging.app */,
+				8FC93C9B218C246000678BC1 /* TLSLocusSynchroDubuggingTests.xctest */,
+				8FC93CA6218C246000678BC1 /* TLSLocusSynchroDubuggingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FC93C85218C245E00678BC1 /* TLSLocusSynchroDubugging */ = {
+			isa = PBXGroup;
+			children = (
+				8FC93C86218C245E00678BC1 /* AppDelegate.h */,
+				8FC93C87218C245E00678BC1 /* AppDelegate.m */,
+				8F1D2BBE21ACDD310020BE80 /* Demos */,
+				8F1D2BC121ACE1B70020BE80 /* Resources */,
+				8F1D2BC421ACE1D40020BE80 /* Dependency */,
+				8FC93C8C218C245E00678BC1 /* Main.storyboard */,
+				8FC93C8F218C246000678BC1 /* Assets.xcassets */,
+				8FC93C91218C246000678BC1 /* LaunchScreen.storyboard */,
+				8FC93C94218C246000678BC1 /* Info.plist */,
+				8FC93C95218C246000678BC1 /* main.m */,
+			);
+			path = TLSLocusSynchroDubugging;
+			sourceTree = "<group>";
+		};
+		8FC93C9E218C246000678BC1 /* TLSLocusSynchroDubuggingTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FC93C9F218C246000678BC1 /* TLSLocusSynchroDubuggingTests.m */,
+				8FC93CA1218C246000678BC1 /* Info.plist */,
+			);
+			path = TLSLocusSynchroDubuggingTests;
+			sourceTree = "<group>";
+		};
+		8FC93CA9218C246000678BC1 /* TLSLocusSynchroDubuggingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FC93CAA218C246000678BC1 /* TLSLocusSynchroDubuggingUITests.m */,
+				8FC93CAC218C246000678BC1 /* Info.plist */,
+			);
+			path = TLSLocusSynchroDubuggingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FC93C82218C245E00678BC1 /* TLSLocusSynchroDubugging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC93CAF218C246000678BC1 /* Build configuration list for PBXNativeTarget "TLSLocusSynchroDubugging" */;
+			buildPhases = (
+				8FC93C7F218C245E00678BC1 /* Sources */,
+				8FC93C80218C245E00678BC1 /* Frameworks */,
+				8FC93C81218C245E00678BC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLSLocusSynchroDubugging;
+			productName = TLSLocusSynchroDubugging;
+			productReference = 8FC93C83218C245E00678BC1 /* TLSLocusSynchroDubugging.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FC93C9A218C246000678BC1 /* TLSLocusSynchroDubuggingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC93CB2218C246000678BC1 /* Build configuration list for PBXNativeTarget "TLSLocusSynchroDubuggingTests" */;
+			buildPhases = (
+				8FC93C97218C246000678BC1 /* Sources */,
+				8FC93C98218C246000678BC1 /* Frameworks */,
+				8FC93C99218C246000678BC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FC93C9D218C246000678BC1 /* PBXTargetDependency */,
+			);
+			name = TLSLocusSynchroDubuggingTests;
+			productName = TLSLocusSynchroDubuggingTests;
+			productReference = 8FC93C9B218C246000678BC1 /* TLSLocusSynchroDubuggingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FC93CA5218C246000678BC1 /* TLSLocusSynchroDubuggingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC93CB5218C246000678BC1 /* Build configuration list for PBXNativeTarget "TLSLocusSynchroDubuggingUITests" */;
+			buildPhases = (
+				8FC93CA2218C246000678BC1 /* Sources */,
+				8FC93CA3218C246000678BC1 /* Frameworks */,
+				8FC93CA4218C246000678BC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FC93CA8218C246000678BC1 /* PBXTargetDependency */,
+			);
+			name = TLSLocusSynchroDubuggingUITests;
+			productName = TLSLocusSynchroDubuggingUITests;
+			productReference = 8FC93CA6218C246000678BC1 /* TLSLocusSynchroDubuggingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FC93C7B218C245E00678BC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = tencent;
+				TargetAttributes = {
+					8FC93C82218C245E00678BC1 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					8FC93C9A218C246000678BC1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8FC93C82218C245E00678BC1;
+					};
+					8FC93CA5218C246000678BC1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8FC93C82218C245E00678BC1;
+					};
+				};
+			};
+			buildConfigurationList = 8FC93C7E218C245E00678BC1 /* Build configuration list for PBXProject "TLSLocusSynchroDubugging" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FC93C7A218C245E00678BC1;
+			productRefGroup = 8FC93C84218C245E00678BC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FC93C82218C245E00678BC1 /* TLSLocusSynchroDubugging */,
+				8FC93C9A218C246000678BC1 /* TLSLocusSynchroDubuggingTests */,
+				8FC93CA5218C246000678BC1 /* TLSLocusSynchroDubuggingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FC93C81218C245E00678BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1D2BC321ACE1C60020BE80 /* TencentNavigationKit.bundle in Resources */,
+				8F1D2BCA21ACE27E0020BE80 /* QMapKit.bundle in Resources */,
+				8FC93C93218C246000678BC1 /* LaunchScreen.storyboard in Resources */,
+				8FC93C90218C246000678BC1 /* Assets.xcassets in Resources */,
+				8F98CA9021B90A0F00A6A238 /* map_icon_driver@2x.png in Resources */,
+				8F98CA9121B90A0F00A6A238 /* map_icon_driver@3x.png in Resources */,
+				8F1D2BD721AE7C8A0020BE80 /* marker@2x.png in Resources */,
+				8FC93C8E218C245E00678BC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC93C99218C246000678BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC93CA4218C246000678BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FC93C7F218C245E00678BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1D2BBD21ACDD060020BE80 /* PassengerSynchroViewController.m in Sources */,
+				8F1D2BB421ACDA310020BE80 /* EntryData.m in Sources */,
+				8F1D2BBA21ACDCEB0020BE80 /* DriverSynchroViewController.m in Sources */,
+				8FC93C96218C246000678BC1 /* main.m in Sources */,
+				8F1D2BD521AD41EE0020BE80 /* TrafficPolyline.m in Sources */,
+				8F1D2BB121ACD8C10020BE80 /* EntryViewController.m in Sources */,
+				8F1D2BB721ACDC230020BE80 /* BaseSynchroViewController.m in Sources */,
+				8F164930219C32AB006D145B /* RouteLocation.m in Sources */,
+				8FC93C88218C245E00678BC1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC93C97218C246000678BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC93CA0218C246000678BC1 /* TLSLocusSynchroDubuggingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC93CA2218C246000678BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC93CAB218C246000678BC1 /* TLSLocusSynchroDubuggingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FC93C9D218C246000678BC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FC93C82218C245E00678BC1 /* TLSLocusSynchroDubugging */;
+			targetProxy = 8FC93C9C218C246000678BC1 /* PBXContainerItemProxy */;
+		};
+		8FC93CA8218C246000678BC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FC93C82218C245E00678BC1 /* TLSLocusSynchroDubugging */;
+			targetProxy = 8FC93CA7218C246000678BC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FC93C8C218C245E00678BC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FC93C8D218C245E00678BC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FC93C91218C246000678BC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FC93C92218C246000678BC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FC93CAD218C246000678BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8FC93CAE218C246000678BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FC93CB0218C246000678BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J57QEZ3JMV;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TLSLocusSynchroDubugging/Dependency",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../**",
+					"$(PROJECT_DIR)/../TLSLocusSynchro/**",
+				);
+				INFOPLIST_FILE = TLSLocusSynchroDubugging/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = tencent.com.TLSLocusSynchroDubugging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FC93CB1218C246000678BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J57QEZ3JMV;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TLSLocusSynchroDubugging/Dependency",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../**",
+					"$(PROJECT_DIR)/../TLSLocusSynchro/**",
+				);
+				INFOPLIST_FILE = TLSLocusSynchroDubugging/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = tencent.com.TLSLocusSynchroDubugging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8FC93CB3218C246000678BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J57QEZ3JMV;
+				INFOPLIST_FILE = TLSLocusSynchroDubuggingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tencent.com.TLSLocusSynchroDubuggingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLSLocusSynchroDubugging.app/TLSLocusSynchroDubugging";
+			};
+			name = Debug;
+		};
+		8FC93CB4218C246000678BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J57QEZ3JMV;
+				INFOPLIST_FILE = TLSLocusSynchroDubuggingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tencent.com.TLSLocusSynchroDubuggingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLSLocusSynchroDubugging.app/TLSLocusSynchroDubugging";
+			};
+			name = Release;
+		};
+		8FC93CB6218C246000678BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J57QEZ3JMV;
+				INFOPLIST_FILE = TLSLocusSynchroDubuggingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tencent.com.TLSLocusSynchroDubuggingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TLSLocusSynchroDubugging;
+			};
+			name = Debug;
+		};
+		8FC93CB7218C246000678BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J57QEZ3JMV;
+				INFOPLIST_FILE = TLSLocusSynchroDubuggingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tencent.com.TLSLocusSynchroDubuggingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TLSLocusSynchroDubugging;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FC93C7E218C245E00678BC1 /* Build configuration list for PBXProject "TLSLocusSynchroDubugging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC93CAD218C246000678BC1 /* Debug */,
+				8FC93CAE218C246000678BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC93CAF218C246000678BC1 /* Build configuration list for PBXNativeTarget "TLSLocusSynchroDubugging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC93CB0218C246000678BC1 /* Debug */,
+				8FC93CB1218C246000678BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC93CB2218C246000678BC1 /* Build configuration list for PBXNativeTarget "TLSLocusSynchroDubuggingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC93CB3218C246000678BC1 /* Debug */,
+				8FC93CB4218C246000678BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC93CB5218C246000678BC1 /* Build configuration list for PBXNativeTarget "TLSLocusSynchroDubuggingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC93CB6218C246000678BC1 /* Debug */,
+				8FC93CB7218C246000678BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FC93C7B218C245E00678BC1 /* Project object */;
+}
